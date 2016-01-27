@@ -100,4 +100,46 @@
 .thumbnails {
 	height: 600px;
 }
+.footer {
+	height: 50px;
+	background-color: #323333;
+	text-align: center;
+}
+.footer img {
+	padding-top: 10px;
+	text-align: center;
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.footer img:hover {
+	opacity: 0.5;
+}
+.footer .col-md-1 {
+	float: none;
+	margin: 0 auto;
+	display: inline;
+}
+.bottom-footer {
+	background-color: black;
+	height: 300px;
+	text-align: center;
+}
+.bottom-footer li {
+	text-decoration: none;
+	list-style: none;
+	padding-top: 15px
+}
 
+.bottom-footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.bottom-footer h3 {
+	color: white;
+}
+.bottom-footer .col-md-4 {
+	margin: auto auto;
+}
