@@ -1,0 +1,103 @@
+.logo-area {
+	height: 150px;
+	background-color: white;
+	text-align: center;
+}
+
+.logo-area h1 {
+	margin: auto;
+	padding-top: 45px;
+}
+.line {
+	background-color: gray;
+	height: 1px;
+	opacity: 50%;
+}
+.nav li {
+	display: inline;
+	margin-left: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.nav {
+	text-align: center;
+	height: 80px;
+}
+.nav a {
+	color: black;
+	text-decoration: none;
+}
+.nav a:active {
+	color: #EDAC34;
+}
+.nav a:hover {
+	color: #EDAC34;
+}
+.nav li:active {
+	color: #EDAC34;
+}
+.nav ul {
+	padding-top: 25px;
+}
+.slideshow img {
+	position: absolute;
+}
+.slideshow {
+	height: 800px;
+}
+.logo-area img {
+	margin-top: 20px;
+}
+.section-2 {
+	text-align: center;
+	padding-top: 50px;
+	height: 340px;
+}
+.section-2 p {
+	color: black;
+}
+.about-me {
+	background-color: #212121;
+	height: 500px;
+	text-align: center;
+	padding-top: 80px;
+}
+.about-me img {
+	height: 140px;
+	width: 140px;
+}
+
+.about-me h4, p {
+	color: white;
+}
+.about-me li {
+	color: white;
+	list-style: none;
+}
+.about-me ul {
+	text-decoration: none;
+}
+
+.top-section .col-md-4 img {
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.top-section .col-md-4 img:hover {
+	opacity: 0.5;
+}
+.top-section .col-md-4 {
+	padding-top: 50px;
+	text-align: center;
+}
+.thumbnails h2 {
+	text-align: center;
+	padding-top: 30px;
+}
+.thumbnails {
+	height: 600px;
+}
+

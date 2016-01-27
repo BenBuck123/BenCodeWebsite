@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>Ben Coding</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/cheat-sheet.css">
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+
+
+
+	<script>
+	$(document).ready(function() {
+    	$('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+
+
+	</script>
+</head>
+
+<body>
+
+<div class="logo-area">
+	<div class="container">
+		<img src="images/logo.png" class="fadeIn" />
+	</div>
+</div>
+<div class="line">
+	<div class="container">
+
+	</div>
+</div>
+<div class="nav">
+	<div class="container">
+		<ul>
+			<li class="active"><a href="#">HOME</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="#">ART</a></li>
+			<li><a href="#">ABOUT ME</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">SHOP</a></li>
+	</div>
+</div>
+
+<div class="line">
+	<div class="container">
+
+	</div>
+</div>
+
+<div class="slideshow">
+	<img src="http://res1.windows.microsoft.com/resbox/en/windows/main/43b75bdd-8869-496e-8c0d-3c12b49dcb18_5.jpg" style='width:100%;height:100%'/>
+	<img src="http://res2.windows.microsoft.com/resbox/en/windows/main/8d79bcd4-2495-42a9-a7d1-62dd7c9f071b_6.jpg" style='width:100%;height:100%'/>
+	<img src="http://res1.windows.microsoft.com/resbox/en/windows/main/9e86beea-6ae7-4370-9bae-95b37fc4899b_4.jpg" style='width:100%;height:100%'/>
+</div>
+
+<div class="section-2">
+	<div class="container">
+		<div class="col-md-4">
+			<img src="images/code26.png" />
+			<h3>Professional Service</h3>
+			<p>Working with our professional website developers, customers get a hands on experience dealing with our developers. The clients will work with and be directly impacting the site layout, and functionality and will have 100% control over what they need for their website.</p>
+		</div>
+		<div class="col-md-4">
+			<img src="images/cart1.png" class="pullUp" id="image1"/>
+			<h3>In-expensive</h3>
+			<p>For the amount of customization and hands on time with our developers, we charge a low hourly rate compared to other competitors. To get a quote on your website, click on "prices" in the navagation menue.</p>
+		</div>
+		<div class="col-md-4">
+			<img src="images/like4.png" />
+			<h3>User Friendly</h3>
+			<p>We will show you and your team how to use, run and manage your sites even after development. Our team trains your staff on how to manage and update the website and how to add new features to the website. We also offer a full year of support on your websites incase anything were to happen.</p>
+		</div>
+	</div>
+</div>
+
+<div class="about-me">
+	<div class="container">
+		<img src="images/profile.jpg" />
+		<h4>Benjamin Buck</h4>
+		<p>My name is Ben Buck and I am 18 years old. Ever since I was a junior in highschool, I have had a fascination with graphics and web design in specific. I used to only design websites in photoshop for my designing eye, but then when I realized how much fun I had figuring out how to actually code functionality into the websites, I decided to become a website developer for a living. Designing websites is a passion of mine and I love everything about it. I love seeing the stuff I make come together in a functional website that people will then be able to navigate.
+
+
+		I was born and raised in Canada and still reside there today. I plan on traveling the world, designing websites on my travels, and I plan to expand my business in the web industry in the future.
+
+		<br>
+		<br>
+		I have not been to any university yet, but I plan on taking computer science in university to enhance and build on my current knowledge of computer systems and specifically web development.</p>
+
+	</div>
+</div>
+
+<div class="thumbnails">
+	<div class="container">
+		<h2>Title Goes Here</h2>
+		<div class="top-section">
+			<div class="col-md-4">
+				<img src="images/box1.png" />
+			</div>
+			<div class="col-md-4">
+				<img src="images/box1.png" />
+			</div>
+			<div class="col-md-4">
+				<img src="images/box1.png" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(window).scroll(function() {
+		$('#image1').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+20) {
+				$(this).addClass("pullUp");
+			}
+		});
+	});
+</script>
+
+</body>
