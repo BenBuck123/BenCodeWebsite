@@ -143,3 +143,17 @@
 .bottom-footer .col-md-4 {
 	margin: auto auto;
 }
+
+/**** Flex Box Addition ****/
+
+.parent {
+	display: flex;
+	justify-content: center;
+}
+
+.item {
+	height: 300px;
+	margin: 15px;
+	text-align: center;
+
+}
